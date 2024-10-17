@@ -1,7 +1,13 @@
-Dataset Info
-SUN RGB-D: https://rgbd.cs.princeton.edu/
-NYUv2: https://cs.nyu.edu/~fergus/datasets/nyu_depth_v2.html
+# Dataset Info
+
+Public Dasaset refs:
+
+- SUN RGB-D: https://rgbd.cs.princeton.edu/
+- NYUv2: https://cs.nyu.edu/~fergus/datasets/nyu_depth_v2.html
+
 Prepare datasets to have following structure:
+
+```
   NYUV2
     100/
       test.txt
@@ -78,7 +84,13 @@ Prepare datasets to have following structure:
     train_label.txt
     train_rgb.txt
     xtion
+```
 
 Training:
+
+```python
   python train/ACT-Unimatch_Fp.py
+```
+```
   python train/ACT-Unimatch.py
+```
