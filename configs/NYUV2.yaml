@@ -1,0 +1,24 @@
+# arguments for dataset
+dataset: NYUV2
+nclass: 40
+# crop_size: 321
+# data_root: /mmsegmentation/data/VOCdevkit/VOC2012
+
+# arguments for training
+epochs: 120
+batch_size: 1
+lr: 0.002  # 4GPUs
+lr_multi: 10.0
+criterion:
+  name: CELoss
+  
+
+conf_thresh: 0.95
+thresh_init: 0.85
+thresh_min: 0.70
+momentum: 0.999
+# arguments for model
+backbone: resnet50
+# multi_grid: True
+# replace_stride_with_dilation: [False, True, True]
+# dilations: [12, 24, 36]
