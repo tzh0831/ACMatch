@@ -1,6 +1,6 @@
 # Dataset Info
 
-Public Dasaset refs:
+Public Dataset refs:
 
 - SUN RGB-D: https://rgbd.cs.princeton.edu/
 - NYUv2: https://cs.nyu.edu/~fergus/datasets/nyu_depth_v2.html
